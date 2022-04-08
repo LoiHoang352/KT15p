@@ -1,0 +1,162 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.l-1 {
+    width: 8.33%;
+    background-color: #ccc;
+}
+.l-2 {
+    width: 16.66%;
+    background-color: aquamarine;
+}
+.l-3 {
+    width: 25%;
+    background-color: bisque;
+}
+.l-4 {
+    width: 33.33%;
+    background-color: chartreuse;
+}
+.l-5 {
+    width: 41.66%;
+    background-color: blueviolet;
+}
+.l-6 {
+    width: 50%;
+    background-color: cadetblue;
+}
+.l-7 {
+    width: 58.33%;
+    background-color: coral;
+}
+.l-8 {
+    width: 66.66%;
+    background-color: cyan;
+}
+.l-9 {
+    width: 75%;
+    background-color: darkkhaki;
+}
+.l-10 {
+    width: 83.33%;
+    background-color: darkolivegreen;
+}
+.l-11 {
+    width: 91.66%;
+    background-color: gold;
+}
+.l-12 {
+    width: 100%;
+    background-color: lightpink;
+    
+}
+[class*="l-"] {
+    float: left;
+    padding: 15px;
+    border: 1px solid red;
+    text-align: center;
+}
+@media screen and (max-width:576px) {
+    .c-1 {
+        width: 8.33%;
+        background-color: #ccc;
+    }
+    .c-2 {
+        width: 16.66%;
+        background-color: aquamarine;
+    }
+    .c-3 {
+        width: 25%;
+        background-color: bisque;
+    }
+    .c-4 {
+        width: 33.33%;
+        background-color: chartreuse;
+    }
+    .c-5 {
+        width: 41.66%;
+        background-color: blueviolet;
+    }
+    .c-6 {
+        width: 50%;
+        background-color: cadetblue;
+    }
+    .c-7 {
+        width: 58.33%;
+        background-color: coral;
+    }
+    .c-8 {
+        width: 66.66%;
+        background-color: cyan;
+    }
+    .c-9 {
+        width: 75%;
+        background-color: darkkhaki;
+    }
+    .c-10 {
+        width: 83.33%;
+        background-color: darkolivegreen;
+    }
+    .c-11 {
+        width: 91.66%;
+        background-color: gold;
+    }
+    .c-12 {
+        width: 100%;
+        background-color: lightpink;       
+    }
+}
+@media screen and ( max-width:768px ) and (min-width:577px){
+    .m-1 {
+        width: 8.33%;
+        background-color: #ccc;
+    }
+    .m-2 {
+        width: 16.66%;
+        background-color: aquamarine;
+    }
+    .m-3 {
+        width: 25%;
+        background-color: bisque;
+    }
+    .m-4 {
+        width: 33.33%;
+        background-color: chartreuse;
+    }
+    .m-5 {
+        width: 41.66%;
+        background-color: blueviolet;
+    }
+    .m-6 {
+        width: 50%;
+        background-color: cadetblue;
+    }
+    .m-7 {
+        width: 58.33%;
+        background-color: coral;
+    }
+    .m-8 {
+        width: 66.66%;
+        background-color: cyan;
+    }
+    .m-9 {
+        width: 75%;
+        background-color: darkkhaki;
+    }
+    .m-10 {
+        width: 83.33%;
+        background-color: darkolivegreen;
+    }
+    .m-11 {
+        width: 91.66%;
+        background-color: gold;
+    }
+    .m-12 {
+        width: 100%;
+        background-color: lightpink;       
+    }
+}
